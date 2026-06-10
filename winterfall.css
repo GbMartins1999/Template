@@ -1,0 +1,93 @@
+/*
+
+       _ __ ___  ___ ___   _ __ ___  ___  ___  _   _ _ __ ___ ___  ___ 
+      | '__/ _ \/ __/ __| | '__/ _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|
+      | | | (_) \__ \__ \ | | |  __/\__ \ (_) | |_| | | | (_|  __/\__ \
+      |_|  \___/|___/___/ |_|  \___||___/\___/ \__,_|_|  \___\___||___/
+
+
+                      https://rossresources.tumblr.com/
+   
+                    CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS
+
+                                *:･ﾟ✧*:･ﾟ✧
+
+                   CREATED BY ROSS DON'T REMOVE MY CREDITS
+          
+*/
+
+@import url('https://fonts.cdnfonts.com/css/fjalla-one-2');
+
+#rr_winterfall {
+  --width: 200px;
+  --img-height: 115px;
+  --icon-size: 55px;
+  --bg-main: #efefe6;
+  --text-color: #000;
+  position: relative;
+}
+
+#rr_winterfall * {
+  border-radius: 5px;
+}
+
+#rr_winterfall a[href="https://is.gd/rossr"] ~ .rcontainer {
+  width: var(--width);
+  background: var(--bg-main);
+  position: relative;
+  padding: 10px;
+}
+
+#rr_winterfall .rimg {
+  width: 100%;
+  height: var(--img-height);
+  background: center/cover;
+}
+
+#rr_winterfall .rfooter {
+  margin-top: -10px;
+  border-radius: 15px;
+  background: var(--bg-main);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#rr_winterfall .rfooter span {
+  padding: 5px 10px 0;
+  font: bold 26px/100% 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+#rr_winterfall .rfooter img {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  object-fit: cover;
+  border-radius: 100%;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  margin-right: 7px;
+  border: 6px solid var(--bg-main);
+}
+
+#rr_winterfall a[href="https://is.gd/rossr"] {
+  height: 12px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#rr_winterfall:after {
+  display: block;
+  content: "「RR」";
+  font: bold 7px/12px 'Arial';
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+#rr_winterfall:hover::after {
+  content: "「is.gd/rossr」";
+}
