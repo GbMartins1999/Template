@@ -1,0 +1,74 @@
+#snappingpostminn .spmbg {
+  width: 450px;
+  background-color: #000;
+  padding: 25px;
+  border: 1px double #fff;
+}
+
+#snappingpostminn .spmheaderarea {
+  width: 400px;
+  height: 40px;
+  padding: 25px;
+  background-color: #fff;
+}
+
+#snappingpostminn .spmimg {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #000;
+  border-radius: 100%;
+  margin-left: 50px;
+}
+
+#snappingpostminn .spmtitle {
+  width: 250px;
+  heigth: 50px;
+  padding: 25px;
+  margin-left: -20px;
+  margin-top: -30px;
+  font: 20px Arial Black;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#snappingpostminn .spmphrase {
+  width: 300px;
+  heigth: 50px;
+  margin-top: -20px;  
+  margin-left: -20px;
+  font: 10px Arial;
+  color: #0000070;
+  text-transform: lowercase;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 100%;
+}
+
+#snappingpostminn .spmpostarea {
+  width: 400px;
+  padding: 25px;
+  background-color: #fff;
+}
+
+#snappingpostminn .spmtxt {
+  width: 350px;
+  padding: 25px;
+  font: 12px Arial;
+  color: #000;
+  text-align: justify;
+  line-height: 130%;
+}
+
+#snappingpostminn:after {
+  display: block;
+  content: "MINN";
+  font: bold 8px/22px Arial;
+  color: #aaaaaa80;
+}
+
+#snappingpostminn:hover:after {
+  content: "MINN @ ASTRO-GRAPHICS";
+}
